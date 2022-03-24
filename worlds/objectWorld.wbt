@@ -1,0 +1,40 @@
+#VRML_SIM R2022a utf8
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.10542799711347751 0.003667543320790027 -0.9944201760577017 3.072434072922016
+  position 1.3201157815331326 0.15296444636756834 1.268523754791203
+}
+TexturedBackground {
+  texture "entrance_hall"
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 5 5
+}
+TiagoSteel {
+  translation -1.25 -0.01 0.095
+  controller "tiagoSteelGestures"
+  cameraSlot [
+    Speaker {
+      name "s1"
+    }
+  ]
+}
+DEF SDM Table {
+  translation 0.05 0 0
+  rotation 0 1 0 0
+}
+Can {
+  translation -0.160705 -0.428028 0.80103
+  rotation 0.5508342611916501 -0.6830344838776471 -0.479630597993336 1.5393168738596496e-16
+}
+WaterBottle {
+  translation -0.13836300000000007 0.589642 0.7378037992127425
+  rotation -0.5869890093760742 0.8004395582401014 -0.1214101168605264 4.688480082289677e-16
+}
+BeerBottle {
+  translation -0.14633199984991935 0.07389549999999999 0.7404212598272789
+  rotation -1.4854838243832517e-11 1 5.416184657209479e-12 5.114131745029401e-06
+}
